@@ -15,7 +15,7 @@
 ░▒▓███████▓▒░  ░▒▓██████▓▒░  ░▒▓█▓▒░░▒▓█▓▒░░▒▓████████▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓███████▓▒░
 ```
 
-**Deterministic AI Orchestration · Financial Anomaly Detection · Kernel-level Systems**
+**Deterministic AI Orchestration · Financial Anomaly Detection · Kernel-level Systems · Socioeconomic Simulation**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/hyeon3125)
 [![Demo](https://img.shields.io/badge/MTP--L2_Demo-live-brightgreen?style=flat-square)](https://mtp-l2-scalar.lovable.app)
@@ -116,6 +116,34 @@ FOMO/volatility corr.  :  r ≈ 0.43 (p<0.05, rolling 24h)
 
 ---
 
+### 🟠 [sim_music_automation](https://github.com/hyeon3125-dev/sim_music_automation) — Automation & Cognitive Layer Simulation
+> Python · Mesa ABM · ITS · Two-domain validation
+
+One hypothesis, two domains: **when automation reduces production cost, do creators move to higher cognitive layers — or does algorithmic concentration neutralize the gain?**
+
+Cross-domain test: music industry (C2→C4) vs. social discourse (S2→S4).
+
+```
+Music C4 (AI era)   →  Δβ production diversity: +0.141 ↑ peak
+                    →  Golden-age attainment:    8%    ↓ collapse
+Social S4 (Algo)    →  Δβ production diversity: +0.135  (near-identical)
+                    →  Golden-age attainment:    98%   (intact)
+```
+
+**Cross-domain invariant:** AI/algorithm era produces the same production diversity acceleration regardless of domain. The decisive variable is presence or absence of a community resistance mechanism.
+
+```
+μ (evaluation friction)
+  Music  C4  =  0.632   ← below 1.0, manageable
+  Social S4  =  1.156   ← above 1.0, evaluation crisis
+```
+
+When μ > 1.0, engaging with new information costs more than it's worth. Echo chamber lock-in is not irrational — it's the correct response to the environment.
+
+*Named coefficients: `hinton_asymmetry`, `capoeira_ceiling_coef`, `pride_resistance_threshold`, `rococo_g_threshold_adj` — each named because it came from somewhere.*
+
+---
+
 ### 🟣 [MTP_Popw](https://github.com/hyeon3125-dev/MTP_Popw) — Proof of Physical Work: Numeric Consistency Simulation
 > Python · MIT · Agent-based simulation
 
@@ -157,7 +185,7 @@ Kernel-level BPF verifier extension implementing transfer functions for DAG stat
 ```
 Month 2  →  Multi-LLM production system (FastAPI + pm2 + Tailscale VPN)
 Month 4  →  LKML BPF DAG verifier RFC · Alexei Starovoitov direct reply (17h)
-Month 6  →  6-project portfolio · patent pending · 24/7 live infra · funding track active
+Month 6  →  7-project portfolio · patent pending · 24/7 live infra · funding track active
 ```
 
 Solo-built. Patent pending. Live in production.  
