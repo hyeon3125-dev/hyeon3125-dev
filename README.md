@@ -1,210 +1,200 @@
-<!-- hyeon3125-dev/hyeon3125-dev/README.md -->
-
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,100:1a1a2e&height=120&section=header&text=&fontSize=0" width="100%"/>
 
-<table border="0" cellspacing="0" cellpadding="0">
-<tr>
-<td align="left" width="60%">
+<!-- ANIMATED SVG HEADER -->
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=13&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&multiline=true&width=600&height=80&lines=SCALAR+%2F%2F+L0;Architecture%2C+not+features." alt="Scalar" />
 
-```
-╔═══════════════════════════════════════╗
-║  SCALAR                               ║
-║  AI Orchestration · FinTech · Kernel  ║
-╚═══════════════════════════════════════╝
-```
+<br/>
 
-**Seung-hyun Lee** — Founder, Scalar Inc.
+<!-- BENCHMARK BADGES -->
+<img src="https://img.shields.io/badge/Latency-10ms_vs_2082ms-00E5FF?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Schema-100%25_accuracy-00FF88?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Scale-46B_params-7B61FF?style=flat-square&labelColor=0d1117"/>
+<img src="https://img.shields.io/badge/Infra-24%2F7_live-00FF88?style=flat-square&labelColor=0d1117&logo=hetzner&logoColor=white"/>
+<img src="https://img.shields.io/badge/LKML-Alexei_17h_reply-FF6F00?style=flat-square&labelColor=0d1117&logo=linux&logoColor=white"/>
 
-AI systems architect building at the intersection of  
-deterministic LLM orchestration, financial anomaly detection,  
-and kernel-level verification.
+<br/><br/>
 
-</td>
-<td align="right" width="40%">
-
+<!-- LINK BADGES -->
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hyeon3125)
-[![Demo](https://img.shields.io/badge/MTP--L2_Live-00C853?style=for-the-badge&logo=rocket&logoColor=white)](https://mtp-l2-scalar.lovable.app)
+[![MTP-L2 Demo](https://img.shields.io/badge/MTP--L2_Live_Demo-00E5FF?style=for-the-badge&logoColor=black)](https://mtp-l2-scalar.lovable.app)
 [![Patent](https://img.shields.io/badge/Patent-Pending-FF6F00?style=for-the-badge)](https://github.com/ScalarCore/MTP-L2-mini)
-[![LKML](https://img.shields.io/badge/LKML_RFC-Alexei_Reply-7B2FBE?style=for-the-badge&logo=linux&logoColor=white)](https://lkml.org)
-
-</td>
-</tr>
-</table>
-
----
-
-### What I ship
-
-<table border="0" cellspacing="0" cellpadding="8">
-<tr>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/10ms-latency-00C853?style=flat-square"/><br/>
-<sub>MTP-L2 vs 2000ms legacy</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/100%25-schema_accuracy-0A84FF?style=flat-square"/><br/>
-<sub>Deterministic LLM routing</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/24%2F7-live_infra-FF6F00?style=flat-square"/><br/>
-<sub>Hetzner · FMS production</sub>
-</td>
-<td align="center" width="25%">
-<img src="https://img.shields.io/badge/17h-Alexei_reply-7B2FBE?style=flat-square"/><br/>
-<sub>LKML BPF DAG RFC</sub>
-</td>
-</tr>
-</table>
+[![Portfolio](https://img.shields.io/badge/scalar--dev.netlify.app-111?style=for-the-badge&logo=netlify&logoColor=00E5FF)](https://scalar-dev.netlify.app)
 
 </div>
 
 ---
 
+```
+AI orchestration · financial anomaly detection · kernel-level verification
+Solo-built. Patent pending. Live in production.
+```
+
+**Seung-hyun Lee** — Founder, Scalar Inc. · Seoul, Korea  
+Building deterministic AI infrastructure at the intersection of LLM orchestration, FinTech, and kernel-level verification.
+
+---
+
 ## Projects
 
-<table border="0" cellspacing="16" cellpadding="0">
+<!-- MTP-L2 -->
+<details open>
+<summary><b>🔵 MTP-L2-mini — Deterministic AI Orchestration</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00FF88?style=flat-square"/> <img src="https://img.shields.io/badge/Patent_Pending-FF6F00?style=flat-square"/></summary>
 
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### 🔴 [MTP-L2-mini](https://github.com/ScalarCore/MTP-L2-mini)
-**Deterministic AI Orchestration**
+Multi-LLM routing via schema-enforced DSL. The OS kernel for the LLM era — no hallucination leakage between layers.
 
-Multi-LLM routing via schema-enforced DSL.  
-No prompt engineering. No hallucination leakage.
+| Metric | MTP-L2 | Legacy |
+|--------|--------|--------|
+| Latency | **10ms** | 2,082ms |
+| Schema accuracy | **100%** | 0% |
+| Model scale | **46B** | 380B |
 
-```
-10ms · Schema 100% · 46B params
-vs legacy 2000ms · 60-80% accuracy
-```
-**[→ Live Demo](https://mtp-l2-scalar.lovable.app)** · Patent pending
+**→ [Live Demo](https://mtp-l2-scalar.lovable.app)** · [Repo](https://github.com/ScalarCore/MTP-L2-mini)
 
-</td>
-<td width="50%" valign="top">
+</details>
 
-### 🟡 [SCALAR FMS](https://github.com/hyeon3125-dev/scalar-fms)
-**Financial Anomaly Detection**
+---
 
-Real-time monitoring with autonomous anomaly detection.  
-B2B SaaS · 24/7 live on Hetzner CPX32.
+<!-- SCALAR FMS -->
+<details>
+<summary><b>🟢 SCALAR FMS — Financial Anomaly Detection</b> &nbsp;<img src="https://img.shields.io/badge/24%2F7_LIVE-00FF88?style=flat-square"/></summary>
 
-```
-Always-on · Auto-recovery · B2B ready
-```
+<br/>
 
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🟢 [Scalar ERP](https://github.com/ScalarCore/Scalar-ERP-v1.0)
-**Serverless MES on Google Sheets**
-
-Full BOM/production tracking.  
-41 functions · Zero infrastructure cost.
+Real-time financial monitoring with autonomous anomaly detection. B2B SaaS, always-on Hetzner CPX32.
 
 ```
-MIT · Apps Script · No backend required
+Uptime: 24/7  ·  Auto-recovery: enabled  ·  B2B ready
 ```
 
-</td>
-<td width="50%" valign="top">
+[Repo](https://github.com/hyeon3125-dev/scalar-fms)
 
-### 🔵 [MTP-riemann-z-explorer](https://github.com/hyeon3125-dev/MTP-riemann-z-explorer)
-**Runtime Non-Refutation Verifier**
+</details>
 
-If formal proof is structurally impossible (Gödel/Chaitin),  
-runtime non-refutation is the optimal strategy (Landauer/Bekenstein).
+---
 
-```
-27/29 zeros confirmed · 0 off-critical-line
-~1.84e-19 J per marginal zero
-```
+<!-- riemann_verify.c -->
+<details>
+<summary><b>⬛ riemann_verify.c — BPF DAG Verifier · LKML RFC</b> &nbsp;<img src="https://img.shields.io/badge/LKML_RFC-7B61FF?style=flat-square&logo=linux&logoColor=white"/></summary>
 
-</td>
-</tr>
+<br/>
 
-<tr>
-<td width="50%" valign="top">
-
-### 🟠 [sim_music_automation](https://github.com/hyeon3125-dev/sim_music_automation)
-**Automation & Cognitive Layer Simulation**
-
-Two-domain stress test: music industry vs. social discourse.  
-When μ > 1.0 — evaluation costs more than the information is worth.
+Kernel-level transfer functions for BPF DAG state verification. RFC submitted to Linux kernel mailing list.
 
 ```
-C4/S4 Δβ: +0.141 / +0.135 (cross-domain invariant)
-Music golden-age: 8% ↓ · Social: 98% (resistance mechanism)
+Reviewer : Alexei Starovoitov  (BPF subsystem maintainer · Meta)
+Reply    : 17 hours
+Pathway  : merge_verifier_state() confirmed upstream
+Language : C · eBPF
 ```
 
-</td>
-<td width="50%" valign="top">
+[Repo](https://github.com/hyeon3125-dev/riemann_verify)
 
-### 🟣 [MTP_Popw](https://github.com/hyeon3125-dev/MTP_Popw)
-**Proof of Physical Work Simulation**
+</details>
 
-Monetary issuance anchored to verifiable physical energy.  
-Unauthorized inflation structurally impossible — not just discouraged.
+---
 
-```
-Conservation: 100% · False issuance blocked: 53.7%
-SNR +94.2% · CV +23.0%
-```
+<!-- Scalar ERP -->
+<details>
+<summary><b>🟡 Scalar ERP — Serverless MES on Google Sheets</b> &nbsp;<img src="https://img.shields.io/badge/MIT-gray?style=flat-square"/></summary>
 
-</td>
-</tr>
+<br/>
 
-<tr>
-<td width="50%" valign="top">
-
-### ⬛ [riemann_verify.c](https://github.com/hyeon3125-dev/riemann_verify)
-**BPF DAG Verifier · LKML RFC**
-
-Kernel-level transfer functions for DAG state verification.  
-`merge_verifier_state()` pathway confirmed by Alexei Starovoitov.
+Full BOM/production tracking with 41 functions and shared utility layer. Zero infrastructure cost.
 
 ```
-C · eBPF · Linux kernel · 17h direct reply
+Functions: 41  ·  Infra cost: $0  ·  License: MIT
 ```
 
-</td>
-<td width="50%" valign="top">
+[Repo](https://github.com/ScalarCore/Scalar-ERP-v1.0)
 
-### ⚪ [Scalar Market Analyzer](https://github.com/hyeon3125-dev/Scalar-Market-Analyzer)
-**Crypto Decision-Support Infrastructure**
+</details>
 
-Dual-layer engine: Gemini AI judge + OI-change fallback.  
-FOMO Index (1–99) · 24/7 autonomous operation.
+---
+
+<!-- sim_music_automation -->
+<details>
+<summary><b>🟠 sim_music_automation — Automation & Cognitive Layer Simulation</b></summary>
+
+<br/>
+
+Two-domain stress test across music industry and social discourse. When μ > 1.0, echo chamber lock-in is the rational response.
 
 ```
-AI alignment ~68% · Fallback >95% stability
+Cross-domain Δβ: +0.141 / +0.135  ·  Music golden-age: 8% ↓ collapse
+Social golden-age: 98% intact (resistance mechanism confirmed)
+```
+
+[Repo](https://github.com/hyeon3125-dev/sim_music_automation)
+
+</details>
+
+---
+
+<!-- MTP_Popw -->
+<details>
+<summary><b>🟣 MTP_Popw — Proof of Physical Work Simulation</b> &nbsp;<img src="https://img.shields.io/badge/MIT-gray?style=flat-square"/></summary>
+
+<br/>
+
+Monetary issuance anchored to verifiable physical energy. Unauthorized inflation structurally impossible — not just discouraged.
+
+```
+Conservation law: 100% pass  ·  False issuance blocked: 53.7%
+SNR improvement: +94.2%  ·  CV improvement: +23.0%
+```
+
+[Repo](https://github.com/hyeon3125-dev/MTP_Popw)
+
+</details>
+
+---
+
+<!-- Scalar Market Analyzer -->
+<details>
+<summary><b>⚪ Scalar Market Analyzer — Crypto Decision-Support Infrastructure</b></summary>
+
+<br/>
+
+Dual-layer engine: Gemini AI judge + OI-change fallback. FOMO Index (1–99) · 24/7 autonomous operation.
+
+```
+AI alignment: ~68%  ·  Fallback stability: >95%
 FOMO/volatility r ≈ 0.43 (p<0.05)
 ```
 
-</td>
-</tr>
+[Repo](https://github.com/hyeon3125-dev/Scalar-Market-Analyzer)
 
-</table>
+</details>
 
 ---
 
 ## Trajectory
 
 ```
-Month 2  →  Multi-LLM production system  (FastAPI · pm2 · Tailscale VPN)
-Month 4  →  LKML BPF DAG verifier RFC    (Alexei Starovoitov · 17h direct reply)
-Month 6  →  7-project portfolio          (patent pending · 24/7 live · funding track active)
+Month 2  →  Multi-LLM production system       FastAPI · pm2 · Tailscale VPN · live on Hetzner
+Month 4  →  LKML BPF DAG verifier RFC         Alexei Starovoitov direct reply · 17h
+Month 6  →  7-project portfolio               patent pending · 24/7 live · funding track active
 ```
+
+---
 
 <div align="center">
 
-Solo-built. Patent pending. Live in production. Funding track active — 2026.
+**Stack**
 
-*Scalar Inc. · Seoul, Korea*
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![eBPF](https://img.shields.io/badge/eBPF-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=black)
+![Hetzner](https://img.shields.io/badge/Hetzner-D50C2D?style=flat-square&logo=hetzner&logoColor=white)
 
-![](https://komarev.com/ghpvc/?username=hyeon3125-dev&color=blueviolet&style=flat-square)
+<br/>
+
+*Scalar Inc. · Seoul, Korea · 2026*
+
+![](https://komarev.com/ghpvc/?username=hyeon3125-dev&color=00e5ff&style=flat-square)
 
 </div>
