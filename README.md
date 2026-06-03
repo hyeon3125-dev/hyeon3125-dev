@@ -32,7 +32,7 @@ financial anomaly detection, and verifiable automation.
 Solo-built. Patent pending. Live in production.
 ```
 
-**Seung-hyun Lee** — Founder, Scalar Inc. · Seoul, Korea · i0architect@scalar-inc.com
+**Seung-hyun Lee** — Founder, Scalar Inc. · Seoul, Korea · l0architect@scalar-inc.com
 
 ---
 
