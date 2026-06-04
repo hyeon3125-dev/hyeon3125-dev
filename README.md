@@ -117,13 +117,13 @@ Month 6  →  7-project portfolio               patent pending · 24/7 live · f
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=hyeon3125-dev&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=F37021&icon_color=F37021&text_color=e8eaf0&hide=contribs" height="130"/>
+<img src="https://github-readme-stats.vercel.app/api?username=hyeon3125-dev&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=F37021&amp;icon_color=F37021&amp;text_color=e8eaf0&amp;hide=contribs" height="130"/>
 &nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyeon3125-dev&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=F37021&text_color=e8eaf0&langs_count=6" height="130"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hyeon3125-dev&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=F37021&amp;text_color=e8eaf0&amp;langs_count=6" height="130"/>
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hyeon3125-dev&bg_color=0d1117&color=F37021&line=F37021&point=111111&area=true&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hyeon3125-dev&amp;bg_color=0d1117&amp;color=F37021&amp;line=F37021&amp;point=111111&amp;area=true&amp;hide_border=true" width="100%"/>
 
 <br/>
 
