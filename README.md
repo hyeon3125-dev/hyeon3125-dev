@@ -117,9 +117,9 @@ Month 6  →  7-project portfolio               patent pending · 24/7 live · f
 
 <div align="center">
 
-<img src="https://github-readme-stats-lemon-one-13.vercel.app/api?username=hyeon3125-dev&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=F37021&amp;icon_color=F37021&amp;text_color=e8eaf0&amp;hide=contribs" height="130"/>
+<img src="https://github-readme-stats-lemon-one-13.vercel.app/api?username=hyeon3125-dev&amp;show_icons=true&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=F37021&amp;icon_color=F37021&amp;text_color=e8eaf0&amp;hide=contribs&amp;v=2" height="130"/>
 &nbsp;
-<img src="https://github-readme-stats-lemon-one-13.vercel.app/api/top-langs/?username=hyeon3125-dev&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=F37021&amp;text_color=e8eaf0&amp;langs_count=6" height="130"/>
+<img src="https://github-readme-stats-lemon-one-13.vercel.app/api/top-langs/?username=hyeon3125-dev&amp;layout=compact&amp;theme=dark&amp;hide_border=true&amp;bg_color=0d1117&amp;title_color=F37021&amp;text_color=e8eaf0&amp;langs_count=6&amp;v=2" height="130"/>
 
 <br/><br/>
 
