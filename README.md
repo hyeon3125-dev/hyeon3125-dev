@@ -11,7 +11,7 @@
 
 <br/>
 
-[![](https://img.shields.io/badge/●_LIVE-SCALAR_FMS_24%2F7-F37021?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/scalar-fms)
+[![](https://img.shields.io/badge/●_LIVE-SCALAR_FMS_24%2F7-F37021?style=flat-square&labelColor=111111)](https://fms.scalar-inc.com)
 [![](https://img.shields.io/badge/Patent-10--2026--0084899-F37021?style=flat-square&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
 [![](https://img.shields.io/badge/LKML_RFC-BPF_DAG_Verifier-F37021?style=flat-square&labelColor=111111&logo=linux&logoColor=white)](https://lkml.org)
 
@@ -19,7 +19,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/hyeon3125)
 [![Demo](https://img.shields.io/badge/Request_Demo-F37021?style=for-the-badge&logoColor=white)](https://mtp-l2-scalar.lovable.app)
-[![Portfolio](https://img.shields.io/badge/scalar--inc.com-111111?style=for-the-badge&logo=netlify&logoColor=F37021)](https://scalar-dev.netlify.app)
+[![Portfolio](https://img.shields.io/badge/scalar--inc.com-111111?style=for-the-badge&logo=netlify&logoColor=F37021)](https://scalar-inc.com)
 [![Email](https://img.shields.io/badge/l0architect@scalar--inc.com-111111?style=for-the-badge&logo=gmail&logoColor=F37021)](mailto:l0architect@scalar-inc.com)
 
 </div>
@@ -52,13 +52,17 @@ Multi-LLM routing via schema-enforced DSL. The OS kernel for the LLM era — no 
 
 ---
 
-### [SCALAR FMS](https://github.com/hyeon3125-dev/scalar-fms) — Financial Anomaly Detection &nbsp;[![](https://img.shields.io/badge/●_24%2F7_LIVE-F37021?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/scalar-fms)
+### [SCALAR FMS](https://fms.scalar-inc.com) — Financial Market Intelligence &nbsp;[![](https://img.shields.io/badge/●_24%2F7_LIVE-F37021?style=flat-square&labelColor=111111)](https://fms.scalar-inc.com) [![](https://img.shields.io/badge/V8.1-GeminiTuner-111111?style=flat-square&labelColor=222222)](https://fms.scalar-inc.com)
 
-Real-time financial monitoring with autonomous anomaly detection. B2B SaaS, always-on Hetzner CPX32.
+Real-time BTC/USDT derivatives + on-chain + whale tracking. B2B SaaS, always-on Hetzner CPX32.
 
-```
-Uptime: 24/7  ·  Auto-recovery: enabled  ·  B2B ready
-```
+| | |
+|---|---|
+| **Demo** | [fms.scalar-inc.com](https://fms.scalar-inc.com) |
+| **Stack** | Python 3.12 · Supabase · Bybit API · Telethon · React 18 |
+| **Signal Engine** | Taker CVD · OI% · Funding · ATR · EMA · Whale Events ($10M+) |
+| **Uptime** | 24/7 automated (PM2 · Hetzner CPX32) |
+| **Version** | V8.1 — GeminiTuner 24h auto-tuning · ATR-linked TP/SL |
 
 ---
 
