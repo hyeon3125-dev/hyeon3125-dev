@@ -13,7 +13,7 @@
 
 [![](https://img.shields.io/badge/●_LIVE-SCALAR_FMS_24%2F7-F37021?style=flat-square&labelColor=111111)](https://fms.scalar-inc.com)
 [![](https://img.shields.io/badge/Patent-10--2026--0084899-F37021?style=flat-square&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
-[![](https://img.shields.io/badge/LKML_RFC-BPF_DAG_Verifier-F37021?style=flat-square&labelColor=111111&logo=linux&logoColor=white)](https://lkml.org)
+[![](https://img.shields.io/badge/LKML_RFC-BPF_DAG_Verifier-F37021?style=flat-square&labelColor=111111&logo=linux&logoColor=white)](https://lore.kernel.org/bpf/178004391665.3522.4865582628003357086@gmail.com/T/#u)
 
 <br/><br/>
 
@@ -68,7 +68,7 @@ Real-time BTC/USDT derivatives + on-chain + whale tracking. B2B SaaS, always-on 
 
 ## Research
 
-### [riemann_verify.c](https://github.com/hyeon3125-dev/riemann_verify) — BPF DAG Verifier &nbsp;[![](https://img.shields.io/badge/LKML_RFC-F37021?style=flat-square&labelColor=111111&logo=linux&logoColor=white)](https://lkml.org)
+### [riemann_verify.c](https://github.com/hyeon3125-dev/riemann_verify) — BPF DAG Verifier &nbsp;[![](https://img.shields.io/badge/LKML_RFC-F37021?style=flat-square&labelColor=111111&logo=linux&logoColor=white)](https://lore.kernel.org/bpf/178004391665.3522.4865582628003357086@gmail.com/T/#u) [![](https://img.shields.io/badge/LWN-Coverage-F37021?style=flat-square&labelColor=111111)](https://lwn.net/SubscriberLink/1075067/6e0bbea2010794b8/)
 
 Kernel-level transfer functions for BPF DAG state verification. RFC submitted to Linux kernel mailing list.
 
@@ -78,6 +78,8 @@ Reply    : 17 hours direct  ← third-party technical validation
 Pathway  : merge_verifier_state() confirmed upstream
 Language : C · eBPF
 ```
+
+**→ [LKML 스레드](https://lore.kernel.org/bpf/178004391665.3522.4865582628003357086@gmail.com/T/#u)** `2026-05-30` &nbsp;·&nbsp; **[LWN Coverage](https://lwn.net/SubscriberLink/1075067/6e0bbea2010794b8/)** `2026-06-03`
 
 ### [MTP_Popw](https://github.com/hyeon3125-dev/MTP_Popw) — Proof of Physical Work &nbsp;[![](https://img.shields.io/badge/MIT-555?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/MTP_Popw)
 
