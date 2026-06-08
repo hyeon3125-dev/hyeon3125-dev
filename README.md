@@ -4,10 +4,10 @@
 
 <br/><br/>
 
-<!-- BENCHMARK: 출처 명시 -->
-[![](https://img.shields.io/badge/⚡_Latency-10ms_vs_2082ms_(internal_bench_N=10)-F37021?style=for-the-badge&labelColor=111111)](https://mtp-l2-scalar.lovable.app)
-[![](https://img.shields.io/badge/✓_Schema-100%25_compliance_(internal_bench_N=10)-F37021?style=for-the-badge&labelColor=111111)](https://mtp-l2-scalar.lovable.app)
-[![](https://img.shields.io/badge/◈_Payload-46B_vs_380B_(8x_leaner,_internal_bench_N=10)-F37021?style=for-the-badge&labelColor=111111)](https://mtp-l2-scalar.lovable.app)
+<!-- BENCHMARK: 재현 가능한 공정 벤치 (kibo_fair_test.py, N=2000) -->
+[![](https://img.shields.io/badge/🛡️_Safety-100%25_bounds--safe_vs_~75%25_raw-F37021?style=for-the-badge&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
+[![](https://img.shields.io/badge/✓_Schema-100%25_conform_by_construction-F37021?style=for-the-badge&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
+[![](https://img.shields.io/badge/◈_Output-normalized_to_fixed_command-F37021?style=for-the-badge&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
 
 <br/>
 
@@ -40,15 +40,18 @@ Solo-built. Patent pending. Live in production.
 
 ### [MTP-L2-mini](https://github.com/ScalarCore/MTP-L2-mini) — Deterministic AI Orchestration &nbsp;[![](https://img.shields.io/badge/LIVE-F37021?style=flat-square&labelColor=111111)](https://mtp-l2-scalar.lovable.app) [![](https://img.shields.io/badge/Patent_Pending-F37021?style=flat-square&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
 
-Multi-LLM routing via schema-enforced DSL. The OS kernel for the LLM era — no hallucination leakage between layers.
+A deterministic layer between the LLM and the executor: tokenize → validate → clamp → compile. Every downstream command is schema-conform and within physical bounds **by construction** — not by hoping the model behaves.
 
-| Metric | MTP-L2 | Legacy | Source |
+| Metric | MTP-L2 | Raw LLM output | Source |
 |--------|:------:|:------:|:------:|
-| Latency | **10ms** | 2,082ms | internal benchmark N=10 |
-| Schema compliance | **100%** | 0% | internal benchmark N=10 |
-| Payload | **46 B** | 380 B | internal benchmark N=10 |
+| Bounds-safe & schema-conform | **100%** | ~75% | fair bench N=2000 |
+| Correct vs intent | **~91%** | ~75% | fair bench N=2000 |
+| Output payload | **~53 B (fixed)** | 25–86 B (varies) | fair bench N=2000 |
+| Parse overhead | ~7 µs | ~4 µs | LLM call paid by both paths |
 
-**→ [Live Demo](https://mtp-l2-scalar.lovable.app)** · [Repo](https://github.com/ScalarCore/MTP-L2-mini)
+*Fair benchmark: identical fuzzed input to both paths, reproducible offline (`python kibo_fair_test.py`). MTP-L2's edge is determinism & safety — not latency.*
+
+**→ [Repo + benchmark](https://github.com/ScalarCore/MTP-L2-mini)** · [Live Demo](https://mtp-l2-scalar.lovable.app)
 
 ---
 
