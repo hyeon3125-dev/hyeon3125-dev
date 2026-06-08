@@ -7,7 +7,7 @@
 <!-- BENCHMARK: 출처 명시 -->
 [![](https://img.shields.io/badge/⚡_Latency-10ms_vs_2082ms_(internal_bench_N=10)-F37021?style=for-the-badge&labelColor=111111)](https://mtp-l2-scalar.lovable.app)
 [![](https://img.shields.io/badge/✓_Schema-100%25_compliance_(internal_bench_N=10)-F37021?style=for-the-badge&labelColor=111111)](https://mtp-l2-scalar.lovable.app)
-[![](https://img.shields.io/badge/◈_Scale-46B_params_(vs_380B_legacy)-F37021?style=for-the-badge&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
+[![](https://img.shields.io/badge/◈_Payload-46B_vs_380B_(8x_leaner,_internal_bench_N=10)-F37021?style=for-the-badge&labelColor=111111)](https://mtp-l2-scalar.lovable.app)
 
 <br/>
 
@@ -46,7 +46,7 @@ Multi-LLM routing via schema-enforced DSL. The OS kernel for the LLM era — no 
 |--------|:------:|:------:|:------:|
 | Latency | **10ms** | 2,082ms | internal benchmark N=10 |
 | Schema compliance | **100%** | 0% | internal benchmark N=10 |
-| Payload | **46B** | 380B | internal benchmark N=10 |
+| Payload | **46 B** | 380 B | internal benchmark N=10 |
 
 **→ [Live Demo](https://mtp-l2-scalar.lovable.app)** · [Repo](https://github.com/ScalarCore/MTP-L2-mini)
 
