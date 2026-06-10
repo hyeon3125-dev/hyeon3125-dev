@@ -12,7 +12,8 @@
 <br/>
 
 [![](https://img.shields.io/badge/●_LIVE-SCALAR_FMS_24%2F7-F37021?style=flat-square&labelColor=111111)](https://fms.scalar-inc.com)
-[![](https://img.shields.io/badge/Patent-10--2026--0084899-F37021?style=flat-square&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
+[![](https://img.shields.io/badge/Patent_①_Routing-10--2026--0105850-F37021?style=flat-square&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
+[![](https://img.shields.io/badge/Patent_②_Execution-10--2026--0084899-F37021?style=flat-square&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
 [![](https://img.shields.io/badge/LKML_RFC-BPF_DAG_Verifier-F37021?style=flat-square&labelColor=111111&logo=linux&logoColor=white)](https://lore.kernel.org/bpf/178004391665.3522.4865582628003357086@gmail.com/T/#u)
 
 <br/><br/>
@@ -27,9 +28,9 @@
 ---
 
 ```
-Building infrastructure for deterministic AI orchestration,
-financial anomaly detection, and verifiable automation.
-Solo-built. Patent pending. Live in production.
+Scalar develops deterministic AI orchestration systems
+for enterprise-grade automation and robotics.
+Solo-built. 2-Layer patent (filed). Live in production.
 ```
 
 **Seung-hyun Lee** — Founder, Scalar Inc. · Seoul, Korea · l0architect@scalar-inc.com
@@ -41,6 +42,16 @@ Solo-built. Patent pending. Live in production.
 ### [MTP-L2-mini](https://github.com/ScalarCore/MTP-L2-mini) — Deterministic AI Orchestration &nbsp;[![](https://img.shields.io/badge/LIVE-F37021?style=flat-square&labelColor=111111)](https://mtp-l2-scalar.lovable.app) [![](https://img.shields.io/badge/Patent_Pending-F37021?style=flat-square&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
 
 A deterministic layer between the LLM and the executor: tokenize → validate → clamp → compile. Every downstream command is schema-conform and within physical bounds **by construction** — not by hoping the model behaves.
+
+**Patents (KR, filed):**
+- Routing Layer — KR 10-2026-0105850 (reasoning-profile vector routing)
+- Execution Layer — KR 10-2026-0084899 (DSL parser-verified execution)
+
+```
+Input → [Routing Layer (patent ①)] → [Execution Layer (patent ②)] → Verified Output
+```
+
+Pipeline routing and execution are patented as separate layers — bypassing one infringes the other.
 
 | Metric | MTP-L2 | Raw LLM output | Source |
 |--------|:------:|:------:|:------:|
@@ -115,7 +126,7 @@ Cross-domain Δβ: +0.141 / +0.135  ·  Music golden-age: 8% ↓  ·  Social: 98
 ```
 Month 2  →  Multi-LLM production system       FastAPI · pm2 · Tailscale VPN · Hetzner live
 Month 4  →  LKML BPF DAG verifier RFC         Alexei Starovoitov · 17h direct reply
-Month 6  →  7-project portfolio               patent pending · 24/7 live · funding track active
+Month 6  →  7-project portfolio               2-layer patent filed · 24/7 live · funding track active
 ```
 
 ---
