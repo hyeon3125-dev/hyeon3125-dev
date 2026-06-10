@@ -80,6 +80,19 @@ Real-time BTC/USDT derivatives + on-chain + whale tracking. B2B SaaS, always-on 
 
 ---
 
+### Music Forensics — AI Music Copyright Evidence &nbsp;[![](https://img.shields.io/badge/B2B-F37021?style=flat-square&labelColor=111111)](https://scalar-inc.com) [![](https://img.shields.io/badge/Portfolio-111111?style=flat-square&labelColor=222222)](https://scalar-inc.com)
+
+Hybrid audio similarity engine for AI music copyright disputes: math core + reverse-tracking + a second-stage filter, producing forensic reports for B2B legal use.
+
+| | |
+|---|---|
+| **Engine** | Chroma Roll · fastDTW · HPSS (numerical similarity) |
+| **Pipeline** | FAISS reverse-tracker → second-stage filter → forensic report |
+| **Stack** | Python 3.12 · FastAPI · FAISS · Supabase |
+| **Target** | Music-specialized law firms · AI-music copyright proof |
+
+---
+
 ## Research
 
 ### [riemann_verify.c](https://github.com/hyeon3125-dev/riemann_verify) — BPF DAG Verifier &nbsp;[![](https://img.shields.io/badge/LKML_RFC-F37021?style=flat-square&labelColor=111111&logo=linux&logoColor=white)](https://lore.kernel.org/bpf/178004391665.3522.4865582628003357086@gmail.com/T/#u) [![](https://img.shields.io/badge/LWN-Coverage-F37021?style=flat-square&labelColor=111111)](https://lwn.net/SubscriberLink/1075067/6e0bbea2010794b8/)
