@@ -93,6 +93,20 @@ Hybrid audio similarity engine for AI music copyright disputes: math core + reve
 
 ---
 
+### [SCALAR: NODE ZERO](https://github.com/hyeon3125-dev/snz-novel) — Deterministic Interactive Novel &nbsp;[![](https://img.shields.io/badge/Open_IP-F37021?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/snz-novel) [![](https://img.shields.io/badge/CC_BY--NC--SA_4.0_·_MIT-555?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/snz-novel/blob/main/LICENSE-CONTENT.md)
+
+A complete 16-volume psychological-SF novel released as an open-source interactive novel — the deterministic philosophy applied to storytelling: same choices, same story, every time. No AI, no server, no build, zero runtime dependencies. The full manuscript ships in the repo; non-commercial culture is free, commercial use is licensed.
+<br><sub>완결 심리 SF 장편을 오픈소스 인터랙티브 노벨로 공개 — 비영리 향유는 자유, 상업적 이용(출판·굿즈·영상화)은 라이선스.</sub>
+
+| | |
+|---|---|
+| **Play / Read** | [hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/) · manuscript in-repo |
+| **Scale** | 16 vols · 200 chapters + 46 side stories · 1,366 scenes · 11,608 lines (verbatim-verified by CI) |
+| **Engine** | Vanilla JS 5-layer · 6 gesture interactions · 7 viewpoint text-grammars · procedural Web Audio |
+| **Model** | Content CC BY-NC-SA 4.0 + commercial licensing & merch · Code MIT |
+
+---
+
 ## Research
 
 ### [riemann_verify.c](https://github.com/hyeon3125-dev/riemann_verify) — BPF DAG Verifier &nbsp;[![](https://img.shields.io/badge/LKML_RFC-F37021?style=flat-square&labelColor=111111&logo=linux&logoColor=white)](https://lore.kernel.org/bpf/178004391665.3522.4865582628003357086@gmail.com/T/#u) [![](https://img.shields.io/badge/LWN-Coverage-F37021?style=flat-square&labelColor=111111)](https://lwn.net/SubscriberLink/1075067/6e0bbea2010794b8/)
