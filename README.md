@@ -93,7 +93,7 @@ Hybrid audio similarity engine for AI music copyright disputes: math core + reve
 
 ---
 
-### [SCALAR: NODE ZERO](https://github.com/hyeon3125-dev/snz-novel) — Deterministic Interactive Novel &nbsp;[![](https://img.shields.io/badge/Open_IP-F37021?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/snz-novel) [![](https://img.shields.io/badge/CC_BY--NC--SA_4.0_·_MIT-555?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/snz-novel/blob/main/LICENSE-CONTENT.md)
+### [SCALAR: NODE ZERO](https://github.com/hyeon3125-dev/snz-novel) — Deterministic Interactive Novel &nbsp;[![](https://img.shields.io/badge/Open_IP-F37021?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/snz-novel) [![](https://img.shields.io/badge/CC_BY--NC--SA_·_PolyForm_NC-555?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/snz-novel/blob/main/LICENSE-CONTENT.md)
 
 A complete 16-volume psychological-SF novel released as an open-source interactive novel — the deterministic philosophy applied to storytelling: same choices, same story, every time. No AI, no server, no build, zero runtime dependencies. The full manuscript ships in the repo; non-commercial culture is free, commercial use is licensed.
 <br><sub>완결 심리 SF 장편을 오픈소스 인터랙티브 노벨로 공개 — 비영리 향유는 자유, 상업적 이용(출판·굿즈·영상화)은 라이선스.</sub>
@@ -103,7 +103,20 @@ A complete 16-volume psychological-SF novel released as an open-source interacti
 | **Play / Read** | [hyeon3125-dev.github.io/snz-novel](https://hyeon3125-dev.github.io/snz-novel/) · manuscript in-repo |
 | **Scale** | 16 vols · 200 chapters + 46 side stories · 1,366 scenes · 11,608 lines (verbatim-verified by CI) |
 | **Engine** | Vanilla JS 5-layer · 6 gesture interactions · 7 viewpoint text-grammars · procedural Web Audio |
-| **Model** | Content CC BY-NC-SA 4.0 + commercial licensing & merch · Code MIT |
+| **Model** | Content CC BY-NC-SA 4.0 + commercial licensing & merch · **Engine PolyForm Noncommercial** (free for noncommercial authors, commercial licensed) |
+
+---
+
+### [차이 — 단편집](https://github.com/hyeon3125-dev/hyeon3125-dev-scalar-shorts) — Deterministic Short Stories &nbsp;[![](https://img.shields.io/badge/Open_IP-F37021?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/hyeon3125-dev-scalar-shorts) [![](https://img.shields.io/badge/CC_BY--NC--SA_·_PolyForm_NC-555?style=flat-square&labelColor=111111)](https://github.com/hyeon3125-dev/hyeon3125-dev-scalar-shorts)
+
+Four short stories (비효율 · 기억 라우터 · 차이 · 입술의 무게) running on the **same SNZ 5-layer engine** — proof the engine is a reusable noncommercial substrate any author can build their own interactive novel on. Korean · English · Japanese, with theme-native interactions (silence as record, manipulated choice, refrains as echo).
+<br><sub>SNZ 엔진을 그대로 재사용한 결정론 단편집 — 엔진은 비영리 작가 누구나 자기 작품에 쓸 수 있는 토대(PolyForm Noncommercial). 한·영·일 3개 언어.</sub>
+
+| | |
+|---|---|
+| **Play / Read** | hyeon3125-dev.github.io/hyeon3125-dev-scalar-shorts · manuscript in-repo |
+| **Engine** | shared SNZ 5-layer core — PolyForm Noncommercial (free for noncommercial use) |
+| **Model** | Content CC BY-NC-SA 4.0 · Engine PolyForm Noncommercial |
 
 ---
 
