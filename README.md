@@ -33,7 +33,7 @@ deterministic systems that prove an action is safe *before* it runs.
 Solo-built. 2-Layer patent (filed). Live in production.
 ```
 
-**Seung-hyun Lee** — Founder, Scalar Inc. · Seoul, Korea · l0architect@scalar-inc.com
+**Seung-hyeon Lee** — Founder, Scalar Inc. · Seoul, Korea · l0architect@scalar-inc.com
 
 Orchestration, finance, copyright, kernel verification — every project answers one question: **can you trust the result of an execution?** Verify before you trust.
 <br><sub>오케스트레이션·금융·저작권·커널 검증 — 모든 프로젝트가 답하는 하나의 질문: 실행 결과를 신뢰할 수 있는가. 신뢰하기 전에 검증한다.</sub>
