@@ -28,12 +28,26 @@
 ---
 
 ```
-Scalar develops deterministic AI orchestration systems
-for enterprise-grade automation and robotics.
+Scalar builds the verification layer for AI execution —
+deterministic systems that prove an action is safe *before* it runs.
 Solo-built. 2-Layer patent (filed). Live in production.
 ```
 
 **Seung-hyun Lee** — Founder, Scalar Inc. · Seoul, Korea · l0architect@scalar-inc.com
+
+Orchestration, finance, copyright, kernel verification — every project answers one question: **can you trust the result of an execution?** Verify before you trust.
+<br><sub>오케스트레이션·금융·저작권·커널 검증 — 모든 프로젝트가 답하는 하나의 질문: 실행 결과를 신뢰할 수 있는가. 신뢰하기 전에 검증한다.</sub>
+
+---
+
+## Background
+
+```
+R&D  →  Korea's largest manufacturing floors (Hyundai · Kia)  →  overseas auto production line (full-lot quality inspection)  →  ERP · logistics · CS  →  independent development  →  2 patents · LKML · open source
+```
+
+Across every floor — domestic and overseas, from R&D through quality, logistics, and customer support — the same problem kept surfacing: *how do you trust the result of an execution?* Scalar is the answer, built from that floor up.
+<br><sub>국내 최대 제조현장(현대·기아)부터 해외 생산라인 품질 전수검사, ERP·물류·CS까지 — 전 공정에서 반복적으로 만난 단 하나의 질문: 실행 결과를 어떻게 신뢰하는가. 스칼라는 그 현장에서 출발한 답이다.</sub>
 
 ---
 
@@ -122,7 +136,7 @@ Four short stories (비효율 · 기억 라우터 · 차이 · 입술의 무게)
 
 ## Research
 
-### [MTP-MetaEval](https://github.com/hyeon3125-dev/MTP-MetaEval) — Verification Efficiency under Bounded Risk &nbsp;[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20806118.svg)](https://doi.org/10.5281/zenodo.20806118)
+### [MTP-MetaEval](https://github.com/hyeon3125-dev/MTP-MetaEval) — Verification Efficiency under Bounded Risk &nbsp;[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20806118-F37021?style=flat-square&labelColor=111111)](https://doi.org/10.5281/zenodo.20806118)
 
 A cross-domain study of *when verification should stop* — the methodology behind the deterministic-verification work, made falsifiable. A non-refutation overhead boundary with a **provable risk bound** (`miss_rate ≤ ε`), and one *assumed-not-earned* law tested across number theory, control, statistics, and LLM evaluation. Pre-registered; reports its own negative results. Published preprint (CERN Zenodo, DOI).
 <br><sub>검증을 언제 멈춰야 하는가 — 비반증 오버헤드 경계의 위험 한계 증명과 *assumed-not-earned* 법칙. 사전등록·정직한 negative 보고. 공개 프리프린트(DOI).</sub>
