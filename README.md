@@ -58,8 +58,8 @@ Enterprises don't stall on AI because the models are weak. They stall because **
 
 | | Signal | Source |
 |---|---|---|
-| **Market** | AI orchestration **~20–22% CAGR** — shift from chat assistants to *governed* automation with audit trails | MarketsandMarkets · Fortune Business Insights · Fact.MR |
-| **Capital** | Arcade.dev raised **$60M Series A** for a "secure action layer" — the verification/execution-control category is now funded | BusinessWire · WSJ `2026-06` |
+| **Market** | AI orchestration **$11.0B (2025) → $30.2B (2030), 22.3% CAGR** · agentic orchestration **$6.3B → $46.8B by 2036, 22.1% CAGR** — shift from chat assistants to *governed* automation with audit trails | MarketsandMarkets · Fortune Business Insights · Fact.MR |
+| **Capital** | Arcade.dev raised **$60M Series A** (SYN Ventures lead; $72M total) for a "secure action layer" — the verification/execution-control category is now funded | BusinessWire · WSJ `2026-06` |
 | **Academia** | AGI-premise collapse → per-domain verification *harness* becomes mandatory, not optional | LeCun et al. — [arXiv:2602.23643](https://arxiv.org/abs/2602.23643) |
 | **Governance** | Typed Planning → DAG → Validation Gate → Audit Trail as the enterprise pattern | POLARIS — [arXiv:2601.11816](https://arxiv.org/abs/2601.11816) |
 | **The gap** | "Capability–Deployment **Verification Gap**" — *built ≠ trustable* | [arXiv:2605.14675](https://arxiv.org/abs/2605.14675) |
