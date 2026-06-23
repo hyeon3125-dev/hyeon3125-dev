@@ -122,6 +122,11 @@ Four short stories (비효율 · 기억 라우터 · 차이 · 입술의 무게)
 
 ## Research
 
+### [MTP-MetaEval](https://github.com/hyeon3125-dev/MTP-MetaEval) — Verification Efficiency under Bounded Risk &nbsp;[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20806118.svg)](https://doi.org/10.5281/zenodo.20806118)
+
+A cross-domain study of *when verification should stop* — the methodology behind the deterministic-verification work, made falsifiable. A non-refutation overhead boundary with a **provable risk bound** (`miss_rate ≤ ε`), and one *assumed-not-earned* law tested across number theory, control, statistics, and LLM evaluation. Pre-registered; reports its own negative results. Published preprint (CERN Zenodo, DOI).
+<br><sub>검증을 언제 멈춰야 하는가 — 비반증 오버헤드 경계의 위험 한계 증명과 *assumed-not-earned* 법칙. 사전등록·정직한 negative 보고. 공개 프리프린트(DOI).</sub>
+
 ### [riemann_verify.c](https://github.com/hyeon3125-dev/riemann_verify) — BPF DAG Verifier &nbsp;[![](https://img.shields.io/badge/LKML_RFC-F37021?style=flat-square&labelColor=111111&logo=linux&logoColor=white)](https://lore.kernel.org/bpf/178004391665.3522.4865582628003357086@gmail.com/T/#u) [![](https://img.shields.io/badge/LWN-Coverage-F37021?style=flat-square&labelColor=111111)](https://lwn.net/SubscriberLink/1075067/6e0bbea2010794b8/)
 
 Kernel-level transfer functions for BPF DAG state verification. RFC submitted to Linux kernel mailing list.
