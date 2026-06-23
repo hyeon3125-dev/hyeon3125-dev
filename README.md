@@ -51,6 +51,36 @@ Across every floor — domestic and overseas, from R&D through quality, logistic
 
 ---
 
+## Why Verification — Where the Market Is Moving
+
+Enterprises don't stall on AI because the models are weak. They stall because **no one can prove what an action did** — so every AI action carries a *trust cost*: human review, audit, rollback, liability. Verification removes that cost. It is the layer that turns an impressive demo into something deployable in production — and the spend is moving from "a better model" to "an action you can prove."
+<br><sub>AI 도입이 막히는 건 모델이 약해서가 아니라 "무엇을 실행했는지 증명할 수 없어서"다 — 검토·감사·롤백·책임이라는 **신뢰비용**. 검증은 그 비용을 제거해 데모를 프로덕션으로 바꾼다. 자본은 "더 좋은 모델"에서 "증명 가능한 실행"으로 이동 중.</sub>
+
+| | Signal | Source |
+|---|---|---|
+| **Market** | AI orchestration **$11.0B (2025) → $30.2B (2030), 22.3% CAGR** · agentic orchestration **$6.3B → $46.8B by 2036, 22.1% CAGR** — shift from chat assistants to *governed* automation with audit trails | MarketsandMarkets · Fortune Business Insights · Fact.MR |
+| **Capital** | Arcade.dev raised **$60M Series A** (SYN Ventures lead; $72M total) for a "secure action layer" — the verification/execution-control category is now funded | BusinessWire · WSJ `2026-06` |
+| **Academia** | AGI-premise collapse → per-domain verification *harness* becomes mandatory, not optional | LeCun et al. — [arXiv:2602.23643](https://arxiv.org/abs/2602.23643) |
+| **Governance** | Typed Planning → DAG → Validation Gate → Audit Trail as the enterprise pattern | POLARIS — [arXiv:2601.11816](https://arxiv.org/abs/2601.11816) |
+| **The gap** | "Capability–Deployment **Verification Gap**" — *built ≠ trustable* | [arXiv:2605.14675](https://arxiv.org/abs/2605.14675) |
+| **Product entry** | Sakana AI ships Fugu multimodel orchestration commercially — the category is real | `2026-06` |
+
+> *"Agents don't fail in production because the model is wrong. They fail because no one can prove what an agent did."* — Alex Salazar, Arcade.dev CEO
+
+**Where Scalar sits** — the execution-guarantee layer, not another framework:
+
+```
+L1  Orchestration   LangChain · CrewAI       connect models & tools          →  complement
+L2  Guardrails      Guardrails AI · NeMo     output format / schema check     →  adjacent
+L3  Deterministic   SCALAR MTP-L2            prove constraints BEFORE run     →  Scalar
+    execution                                · reproduce · audit                 2-layer patent
+```
+
+Scalar is the only one combining a **deterministic L3 guarantee** with multimodel routing, a 2-layer patent, and **kernel-level external validation** (LKML). Same direction as the funded capital, the frontier papers, and Linux-kernel verifier research — already shipped as patents and a live service.
+<br><sub>L1 연결·L2 형식검증이 못 푸는 "실행 전 결정론적 보장(L3)"을 멀티모델 라우팅·2-레이어 특허·커널 외부검증과 결합한 유일 포지션 — 자본·학술 최전선·커널 검증 연구와 같은 방향을 이미 특허·라이브 서비스로 구현.</sub>
+
+---
+
 ## Core Products
 
 ### [MTP-L2-mini](https://github.com/ScalarCore/MTP-L2-mini) — Deterministic AI Orchestration &nbsp;[![](https://img.shields.io/badge/LIVE-F37021?style=flat-square&labelColor=111111)](https://mtp-l2-scalar.lovable.app) [![](https://img.shields.io/badge/Patent_Pending-F37021?style=flat-square&labelColor=111111)](https://github.com/ScalarCore/MTP-L2-mini)
